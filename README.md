@@ -1,6 +1,6 @@
 # YouTube Clone with React and Material-UI
 
-![Project Image](https://i.ibb.co/pr1fXCx/Screenshot-25.png)
+![Project Image](https://www.dropbox.com/scl/fi/8hvyyxpjtj7217xef397g/Screenshot-25.png?rlkey=50qeoia3yoz8zpbm50qhfrhfq&dl=0)
 
 ## Overview
 
