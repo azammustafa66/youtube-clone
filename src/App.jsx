@@ -10,6 +10,7 @@ import {
   Navbar,
 } from "./components";
 
+
 const App = () => {
   return (
     <Router>
