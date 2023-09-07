@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import { Stack, Box } from "@mui/material";
 import { ChannelCard, VideoCard } from "./index";
-import { generateSkeletons } from "./SkeletonUI/GenerateSkeleton";
 import Loader from "./SkeletonUI/Loader";
 
 const Videos = ({ videos, direction }) => {
@@ -14,9 +13,7 @@ const Videos = ({ videos, direction }) => {
       justifyContent={"center"}
       gap={2}
     >
-      {videos.length === 0
-        ? generateSkeletons(12)
-        : videos.map((video, index) => (
+      {videos.map((video, index) => (
             <Box key={index}>
               {video.id.videoId && <VideoCard video={video} />}
               {video.id.channelId && <ChannelCard channelDetail={video} />}
