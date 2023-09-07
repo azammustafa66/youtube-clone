@@ -6,8 +6,6 @@
 
 This project is a YouTube clone built with React and Material-UI. It replicates the core functionality of YouTube, allowing users to view videos, access video details, and navigate to different channels. It also includes features such as video playback, video information display, and more.
 
-This README provides an overview of the project, installation instructions, usage guidelines, and acknowledgments to sources that inspired or helped with the project.
-
 ## Usage
 
 - Browse and search for videos.
